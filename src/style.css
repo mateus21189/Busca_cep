@@ -1,0 +1,65 @@
+li{
+    background-color: rgb(255, 154, 155);
+    margin: 15px;
+    border-radius: 5px;
+    list-style-type: none;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+  
+.parte_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.nomeRua{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 45px 0px;
+    border: 2px solid black ;
+}
+.nomeRua h1{
+    color: azure;
+    text-align: center;
+}  
+.nomeRua span{
+    text-align: center;
+    color: azure;
+
+}
+input{
+    width: 190px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid black ;
+}
+button{
+    height: 35px;
+    background-color: azure;
+
+}
+body{
+    background: linear-gradient(to top, rgb(29, 28, 28), rgb(0, 0, 125), rgb(0, 13, 151) );
+    height: 100vh;
+
+}
+.titulo{
+    font-size: 65px;
+    color: azure;
+    animation: fliptitle 5s;
+}
+
+@keyframes fliptitle {
+    from{
+        transform:rotatex(90deg);
+    }
+    to{
+        transform: rotatex(0deg);
+    }
+}
